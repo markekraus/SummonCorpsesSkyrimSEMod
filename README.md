@@ -55,7 +55,7 @@ The level of corpses scales with your player level.
 
 This mod has no requirements
 
-### NMM/Vortex
+### NMM/Vortex/MO2
 
 Download and install with Vortex and the FOMOD installer will take care of the rest.
 
