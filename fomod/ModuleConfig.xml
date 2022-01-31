@@ -1,6 +1,6 @@
 <!-- Created with build.ps1 by Mark E. Kraus --> 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
-    <moduleName>Summon Corpses</moduleName> 
+    <moduleName>Summon Corpses Power</moduleName> 
     <installSteps order="Explicit"> 
         <installStep name="Install"> 
             <optionalFileGroups order="Explicit"> 

@@ -1,6 +1,6 @@
 # Summon Corpses Power
 
-![Food Fight](logo.png)
+![Logo](logo.png)
 
 A Skyrim Special Edition mod By Mark E. Kraus.
 
@@ -14,7 +14,7 @@ My mods:
 * [Exit Combat Power](https://www.nexusmods.com/skyrimspecialedition/mods/58651)
 * [Greatchairs - Chair Greatswords](https://www.nexusmods.com/skyrimspecialedition/mods/62526)
 * [Sentient Chairs of Skyrim (SCOS)](https://www.nexusmods.com/skyrimspecialedition/mods/59604)
-* [Summon Corpses]({NEWURL})
+* [Summon Corpses](https://www.nexusmods.com/skyrimspecialedition/mods/62857)
 
 ## About Summon Corpses Power
 
@@ -53,11 +53,7 @@ The level of corpses scales with your player level.
 
 ### Requirements
 
-This mod requires [SKSE](https://skse.silverlock.org/)
-
-### Recommended
-
-[Static Mesh Improvement Mod - SMIM](https://www.nexusmods.com/skyrimspecialedition/mods/659). Will improve the looks of Food Weapons.
+This mod has no requirements
 
 ### NMM/Vortex
 
