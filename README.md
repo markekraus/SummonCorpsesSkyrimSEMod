@@ -18,7 +18,7 @@ My mods:
 
 ## About Summon Corpses Power
 
-Adds a power that summons a coffin once a day to dump 1 to 25 fresh corpses on the targeted area. The number of corpses is based on your Conjuration skill.
+Adds a power that summons a coffin once a day to dump 1 to 25 fresh corpses on the targeted area. The number of corpses is based on your Conjuration skill and can be configured in the Mod Configuration Menu.
 
 You may be wondering why this mod exists. It was an idea I had while working on another silly mod. I made this only because I thought it was interesting. Maybe this is useful for a Necromancer play-through? I don't know; I didn't make it with any purpose in mind other than thinking it would be cool in a macabre sort of way.
 
@@ -32,9 +32,50 @@ The power can be learned through a spell tome in the Whiterun Hall of the Dead C
 
 The corpses can be looted, reanimated, or just left for decoration.
 
+The summoned corpses are not persistent so they will de-spawn like most hostile NPCs.
+
 ### Number of Corpses
 
-The number corpses summoned scales with your Conjuration skill.
+The number corpses summoned scales with your Conjuration skill. The maximum number of corpses can be set in the Mod Configuration Menu. Consider toggling this down if you suffer performance issues with the default setting.
+
+Max 1: Only 1 corpse will be spawned regardless of skill level.
+
+Max 5:
+
+* Skill level 1-29: 1 corpse
+* Skill level 30-39: 2 corpses
+* Skill level 40-49: 3 corpses
+* Skill level 50-59: 4 corpses
+* Skill level 60+: 5 corpses
+
+Max 10:
+
+* Skill level 1-19: 1 corpse
+* Skill level 20-29: 2 corpses
+* Skill level 30-39: 4 corpses
+* Skill level 40-49: 6 corpses
+* Skill level 50-59: 8 corpses
+* Skill level 60+: 10 corpses
+
+Max 15:
+
+* Skill level 1-19: 1 corpse
+* Skill level 20-29: 3 corpses
+* Skill level 30-39: 5 corpses
+* Skill level 40-49: 7 corpses
+* Skill level 50-59: 10 corpses
+* Skill level 60+: 15 corpses
+
+Max 20:
+
+* Skill level 1-19: 1 corpse
+* Skill level 20-29: 5 corpses
+* Skill level 30-39: 8 corpses
+* Skill level 40-49: 10 corpses
+* Skill level 50-59: 15 corpses
+* Skill level 60+: 20 corpses
+
+Max 25 (Default):
 
 * Skill level 1-19: 1 corpse
 * Skill level 20-29: 5 corpses
@@ -53,7 +94,7 @@ The level of corpses scales with your player level.
 
 ### Requirements
 
-This mod has no requirements
+This mod requires [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604) for the Mod Configuration Menu.
 
 ### NMM/Vortex/MO2
 
@@ -72,6 +113,8 @@ This mod can be installed in any order.
 ## User Guide
 
 Enter the Whiterun Hall of the Dead Catacombs and read the "Spell Tome: Summon Corpses" book. Equip the power in your Magick menu. Aim at the location you wish to have corpses dumped. Activate the power. Wait 1 in-game day to use the power again.
+
+You can change the maximum number of corpses and scaling with Conjuration in the Mod Configuration menu.
 
 ## Compatibility
 

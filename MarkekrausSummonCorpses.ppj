@@ -15,6 +15,7 @@
     </Variables>
     <Imports>
         <Import>.\Source\Scripts</Import>
+        <Import>..\SkyUI SDK\source\scripts</Import>
         <Import>..\Creation Kit Scripts\Source\Scripts</Import>
     </Imports>
     <Folders>

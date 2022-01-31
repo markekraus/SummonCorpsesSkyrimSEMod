@@ -33,6 +33,7 @@
                             <description>Installs script sources.</description>
                             <image path="logo.png" />
                             <files>
+                                <file source="Source\Scripts\MEKSCSMenuConfig.psc" destination="Source\Scripts\MEKSCSMenuConfig.psc" priority="0" />
                                 <file source="Source\Scripts\MEKSCSSummonCorpsesScript.psc" destination="Source\Scripts\MEKSCSSummonCorpsesScript.psc" priority="0" />
                             </files>
                             <typeDescriptor> 

@@ -8,7 +8,7 @@
         "problemMatcher":"$PapyrusCompiler",
         "args": [
           "${relativeFile}",
-          "-i=Source\\Scripts;..\\Creation Kit Scripts\\Source\\Scripts",
+          "-i=Source\\Scripts;..\\SkyUI SDK\\source\\scripts;..\\Creation Kit Scripts\\Source\\Scripts",
           "-o=Scripts",
           "-f=TESV_Papyrus_Flags.flg"
         ],
