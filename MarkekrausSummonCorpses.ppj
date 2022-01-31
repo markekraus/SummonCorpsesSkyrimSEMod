@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<PapyrusProject xmlns="PapyrusProject.xsd" 
+    Flags="TESV_Papyrus_Flags.flg" 
+    Game="sse" 
+    Output="Scripts" 
+    Optimize="false" 
+    Release="false" 
+    Final="false"
+    Anonymize="true"
+    Package="true"
+    Zip="True">
+    <Variables>
+        <Variable Name="ModName" Value="MarkekrausSummonCorpses" />
+        <Variable Name="ModFolder" Value="D:\Modding\MO2\mods\Dev - Summon Corpses" />
+    </Variables>
+    <Imports>
+        <Import>.\Source\Scripts</Import>
+        <Import>..\Creation Kit Scripts\Source\Scripts</Import>
+    </Imports>
+    <Folders>
+        <Folder>.\Source\Scripts</Folder>
+    </Folders>
+    <Packages Output="@ModFolder">
+        <Package Name="@ModName" RootDir=".">
+            <Include NoRecurse="false">*.pex</Include>
+            <Include NoRecurse="false">*.seq</Include>
+            <Include NoRecurse="false">*.nif</Include>
+            <Include NoRecurse="false">*.dds</Include>
+            <Include NoRecurse="false">*.fuz</Include>
+        </Package>
+    </Packages>
+    <ZipFile Name="@ModName" RootDir="." Compression="deflate" Output="@ModFolder">
+        <Include NoRecurse="true">*.esp</Include>
+        <Include NoRecurse="true">*.bsa</Include>
+        <Include NoRecurse="false">*.psc</Include>
+        <Include NoRecurse="true">fomod\info.xml</Include>
+        <Include NoRecurse="true">fomod\ModuleConfig.xml</Include>
+        <Include NoRecurse="true">logo.png*</Include>
+        <Include NoRecurse="true">3rd_Party_Notice.md*</Include>
+        <Include NoRecurse="true">README.md</Include>
+        <Include NoRecurse="true">LICENSE</Include>
+    </ZipFile>
+</PapyrusProject>

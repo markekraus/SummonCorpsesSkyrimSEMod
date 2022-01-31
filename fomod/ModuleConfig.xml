@@ -1,0 +1,47 @@
+<!-- Created with build.ps1 by Mark E. Kraus --> 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
+    <moduleName>Summon Corpses</moduleName> 
+    <installSteps order="Explicit"> 
+        <installStep name="Install"> 
+            <optionalFileGroups order="Explicit"> 
+                <group name="Main" type="SelectExactlyOne"> 
+                    <plugins order="Explicit">
+                        <plugin name="MarkekrausSummonCorpses.esp">
+                            <description>Adds a power that summons a coffin once a day to dump 1 to 25 fresh corpses on the targeted area.</description>
+                            <image path="logo.png" />
+                            <files>
+                                <file source="MarkekrausSummonCorpses.esp" destination="MarkekrausSummonCorpses.esp" priority="0" />
+                                <file source="MarkekrausSummonCorpses.bsa" destination="MarkekrausSummonCorpses.bsa" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                    </plugins> 
+                </group> 
+                <group name="Install Script Sources?" type="SelectExactlyOne"> 
+                    <plugins order="Explicit"> 
+                        <plugin name="No (Default)"> 
+                            <description>Skips installing script sources.</description>
+                            <image path="logo.png" />
+                            <files></files>
+                        <typeDescriptor> 
+                            <type name="Optional"/> 
+                        </typeDescriptor> 
+                        </plugin>
+                        <plugin name="Yes (For Mod Developers)"> 
+                            <description>Installs script sources.</description>
+                            <image path="logo.png" />
+                            <files>
+                                <file source="Source\Scripts\MEKSCSSummonCorpsesScript.psc" destination="Source\Scripts\MEKSCSSummonCorpsesScript.psc" priority="0" />
+                            </files>
+                            <typeDescriptor> 
+                                <type name="Optional"/> 
+                            </typeDescriptor> 
+                        </plugin> 
+                    </plugins> 
+                </group> 
+            </optionalFileGroups> 
+        </installStep> 
+    </installSteps> 
+</config>

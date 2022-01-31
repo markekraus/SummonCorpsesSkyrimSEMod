@@ -1,0 +1,10 @@
+<fomod>
+    <Name>Summon Corpses</Name>
+    <Author>Mark E. Kraus</Author>
+    <Version>1.0.0</Version>
+    <Website>{NEWURL}</Website>
+    <Description>Adds a power that summons a coffin once a day to dump 1 to 25 fresh corpses on the targeted area.</Description>
+    <Groups>
+        <element>Spells</element>
+    </Groups>
+</fomod>

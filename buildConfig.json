@@ -1,0 +1,14 @@
+{
+  "$schema": "http://mekschemas.netlify.app/modpackager/v2/",
+  "UnfuzerPath": "..\\..\\Game Root\\Tools\\unfuzer",
+  "ModInfo": {
+    "Name": "Summon Corpses",
+    "Version": "1.0.0",
+    "Author": "Mark E. Kraus",
+    "Description": "Adds a power that summons a coffin once a day to dump 1 to 25 fresh corpses on the targeted area.",
+    "Website": "{NEWURL}",
+    "Category": "Spells",
+    "Logo": "logo.png"
+  },
+  "Plugin": "MarkekrausSummonCorpses.esp"
+}
